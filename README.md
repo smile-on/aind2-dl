@@ -1,29 +1,46 @@
-# aind2-dl
+# AIND-DL
 
-### Instructions
+This is a copy of Udacity [introduction into deep learning](https://github.com/udacity/aind2-dl) project with minor bug fixes and all notes collected in one place. Project uses Keras high level wrapper for Neural Networks with Tensorflow as back-end.
 
-1. Clone the repository and navigate to the downloaded folder.
-	
-	```	
-		git clone https://github.com/udacity/aind2-dl.git
-		cd aind2-dl
-	```
+##Installation instructions
 
-2. Obtain the necessary Python packages, and switch Keras backend to Tensorflow.  
-	
-	For __Mac/OSX__ or __Linux__:
-	```
-		conda env create -f requirements/aind-dl-mac-linux.yml
-		source activate aind-dl
-		KERAS_BACKEND=tensorflow python -c "from keras import backend"
-	```
+1. It is assumed you have **Anaconda** python environment [installed](https://conda.io/docs/user-guide/install/index.html).
 
-	For __Windows__:
-	```
-		conda env create -f requirements/aind-dl-windows.yml
-		activate aind-dl
-		set KERAS_BACKEND=tensorflow
-		python -c "from keras import backend"
-	```
-	
-3. Enjoy!
+2. Clone the repository and navigate to the downloaded folder.
+
+  ```	
+  	git clone https://github.com/udacity/aind2-dl.git
+  	cd aind2-dl
+  ```
+
+3. Obtain the necessary Python packages, and switch Keras backend to Tensorflow.  
+
+  For __Linux__:
+  ```
+  	conda env create -f requirements/aind-dl-linux.yml
+  	source activate aind-dl
+  	KERAS_BACKEND=tensorflow python -c "from keras import backend"
+  ```
+
+  For __Windows__:
+  ```
+  	conda env create -f requirements/aind-dl-windows.yml
+  	activate aind-dl
+  	set KERAS_BACKEND=tensorflow
+  	python -c "from keras import backend"
+  ```
+  For **Mac/OSX**:
+  ```
+    	conda env create -f requirements/aind-dl-mac.yml
+    	source activate aind-dl
+    	KERAS_BACKEND=tensorflow python -c "from keras import backend"
+  ```
+
+4. Enjoy!
+
+  ```
+  	jupyter notebook
+  ```
+
+  ​
+
