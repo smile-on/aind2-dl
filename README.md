@@ -2,6 +2,7 @@
 
 This is a copy of Udacity [introduction into deep learning](https://github.com/udacity/aind2-dl) project with minor bug fixes and all notes collected in one place. Project uses Keras high level wrapper for Neural Networks with Tensorflow as back-end.
 
+
 ##Installation instructions
 
 1. It is assumed you have **Anaconda** python environment [installed](https://conda.io/docs/user-guide/install/index.html).
@@ -41,6 +42,10 @@ This is a copy of Udacity [introduction into deep learning](https://github.com/u
   ```
   	jupyter notebook
   ```
+
+  part 1 - [Student Admissions](Student_Admissions.md)
+
+  part 2 - [IMDB Movie Data](IMDB_In_Keras.md)
 
   ​
 
